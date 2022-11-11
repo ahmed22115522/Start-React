@@ -1,0 +1,63 @@
+.portfolio {
+
+
+    .p-line{
+        height: 5px;
+        width:65px;
+        background-color: #000;
+    }
+    .row {
+        @media screen and (max-width:992px) {
+            width: 100% !important;
+        }
+    }
+    .p-item{
+        cursor: pointer;
+        &:hover .img-layer{
+            opacity: 1;
+        }
+    }
+
+    .img-layer {
+        background-color: rgba(26, 188, 156,0.8) ;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+    }
+    .plus-size {
+        font-size: 50px ;
+        color: #fff;
+    }
+    .card {
+        z-index: 9999999;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        h2 {
+            font-size: 50px !important;
+        }
+        .card-item {
+            width: 500px;
+            @media screen and (max-width:992px) {
+                width:400px
+            }
+            @media screen and (max-width:300px) {
+                width: 250px;
+            }
+        }
+        .x-sign {
+            top: 5%;
+            right: 5%;
+            color: #1abc9c;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+        .btn-outline-success{
+            transition: all 0.3s ease-in-out !important;
+        }
+    }
+}
