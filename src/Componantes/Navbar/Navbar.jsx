@@ -11,17 +11,17 @@ export const Navbar = () => {
       <nav className="nav navbar justify-content-between fixed-top">
           <div className="container">
             <div>
-                <NavLink onClick={() => setToggle(false)} className='nav-link text-white fs-3 fw-bold logo' to='/'>Start <span className='r-letter'>R</span>eact</NavLink>
+                <NavLink onClick={() => setToggle(false)} className='nav-link text-white fs-3 fw-bold logo' to='Start-React/'>Start <span className='r-letter'>R</span>eact</NavLink>
             </div>
             <ul className='navbar-nav large-menu flex-row '>
               <li className='nav-item px-3'>
-                <NavLink className={({isActive}) =>isActive ? 'active nav-link fw-bold fs-5 p-2' : 'nav-link fw-bold fs-5 p-2' } to='portfolio'>Portfolio</NavLink>
+                <NavLink className={({isActive}) =>isActive ? 'active nav-link fw-bold fs-5 p-2' : 'nav-link fw-bold fs-5 p-2' } to='Start-React/portfolio'>Portfolio</NavLink>
               </li>
               <li className='nav-item px-3'>
-              <NavLink className={({isActive}) =>isActive ? 'active nav-link fw-bold fs-5 p-2' : 'nav-link fw-bold fs-5 p-2' } to='about'>About</NavLink>
+              <NavLink className={({isActive}) =>isActive ? 'active nav-link fw-bold fs-5 p-2' : 'nav-link fw-bold fs-5 p-2' } to='Start-React/about'>About</NavLink>
               </li>
               <li className='nav-item px-3'>
-              <NavLink className={({isActive}) =>isActive ? 'active nav-link fw-bold fs-5 p-2' : 'nav-link fw-bold fs-5 p-2' } to='contact'>Contact</NavLink>
+              <NavLink className={({isActive}) =>isActive ? 'active nav-link fw-bold fs-5 p-2' : 'nav-link fw-bold fs-5 p-2' } to='Start-React/contact'>Contact</NavLink>
               </li>
             </ul>
 
@@ -34,13 +34,13 @@ export const Navbar = () => {
                   <div className="container">
                     <ul className='navbar-nav flex-column'>
                       <li className='nav-item ps-2'>
-                        <NavLink onClick={() => setToggle(false)} className={({isActive}) =>isActive ? 'active-mobile nav-link fw-bold fs-5 p-2' : 'nav-link fw-bold fs-5 p-2' } to='portfolio'>Portfolio</NavLink>
+                        <NavLink onClick={() => setToggle(false)} className={({isActive}) =>isActive ? 'active-mobile nav-link fw-bold fs-5 p-2' : 'nav-link fw-bold fs-5 p-2' } to='Start-React/portfolio'>Portfolio</NavLink>
                       </li>
                       <li className='nav-item ps-2'>
-                        <NavLink onClick={() => setToggle(false)} className={({isActive}) =>isActive ? 'active-mobile nav-link fw-bold fs-5 p-2' : 'nav-link fw-bold fs-5 p-2' } to='about'>About</NavLink>
+                        <NavLink onClick={() => setToggle(false)} className={({isActive}) =>isActive ? 'active-mobile nav-link fw-bold fs-5 p-2' : 'nav-link fw-bold fs-5 p-2' } to='Start-React/about'>About</NavLink>
                       </li>
                       <li className='nav-item ps-2 pb-2'>
-                        <NavLink onClick={() => setToggle(false)} className={({isActive}) =>isActive ? 'active-mobile nav-link fw-bold fs-5 p-2' : 'nav-link fw-bold fs-5 p-2' } to='contact'>Contact</NavLink>
+                        <NavLink onClick={() => setToggle(false)} className={({isActive}) =>isActive ? 'active-mobile nav-link fw-bold fs-5 p-2' : 'nav-link fw-bold fs-5 p-2' } to='Start-React/contact'>Contact</NavLink>
                       </li>
                     </ul>
                   </div>
