@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Start-React/static/css/main.4117fa06.css",
-    "main.js": "/Start-React/static/js/main.1c76233e.js",
+    "main.js": "/Start-React/static/js/main.b5ee32f8.js",
     "static/media/cabin.png": "/Start-React/static/media/cabin.4417330275f78faa31c3.png",
     "static/media/circus.png": "/Start-React/static/media/circus.494a4a914b5471b41f3e.png",
     "static/media/game.png": "/Start-React/static/media/game.a940b57aa7bab2eacc52.png",
@@ -12,10 +12,10 @@
     "index.html": "/Start-React/index.html",
     "static/media/star-solid.svg": "/Start-React/static/media/star-solid.e5e56d1a4a36599fa87751e204ed7577.svg",
     "main.4117fa06.css.map": "/Start-React/static/css/main.4117fa06.css.map",
-    "main.1c76233e.js.map": "/Start-React/static/js/main.1c76233e.js.map"
+    "main.b5ee32f8.js.map": "/Start-React/static/js/main.b5ee32f8.js.map"
   },
   "entrypoints": [
     "static/css/main.4117fa06.css",
-    "static/js/main.1c76233e.js"
+    "static/js/main.b5ee32f8.js"
   ]
 }
